@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package>
+    <name>Bundled_Items_Images_RobbieD</name>
+    <version>1.0.0.5</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Enable Bundled items images on Product view images for Bundle Products.</summary>
+    <description>&lt;p&gt;This extensions is for Bundle Products ONLY. If you wish to display bundled items images on product view page of Bundle Product, then you are few clicks away from it.&lt;p /&gt;&#xD;
+&#xD;
+&lt;p /&gt;If you found 404 page after installation. Logout magento admin and login again, and it will work like a charm.&lt;p /&gt;&#xD;
+&#xD;
+&lt;p /&gt;After installation:&lt;/p&gt;&#xD;
+admin &gt; configuration &gt; BUNDLEOPTIONS SETTINGS &gt; general.&#xD;
+&lt;br /&gt;&#xD;
+&lt;p&gt;You can configure images for different input types they are:&#xD;
+Radio, Checkbox. &#xD;
+And with input type SELECT, you can change the base image with corresponding selected option.&lt;/p&gt;&#xD;
+&lt;br /&gt;&#xD;
+&lt;p&gt;You can add background color to selected bundled item as well.&lt;/p&gt;&#xD;
+&lt;br /&gt;&#xD;
+&lt;p&gt;You can drop me a mail if you have any suggestion and found any problem with this extension.&#xD;
+I will feel happy.&lt;/p&gt;&#xD;
+&#xD;
+NOTE: This extension is based upon the Magento's default theme, so you may require to change CSS a lilttle bit according to your theme requirements.&#xD;
+</description>
+    <notes>Compatible with 1.8, quick view and images size configuration. Stable version.</notes>
+    <authors><author><name>Robin Dhiman</name><user>robin_kumar</user><email>rkd711@gmail.com</email></author></authors>
+    <date>2014-03-26</date>
+    <time>10:28:11</time>
+    <contents><target name="magelocal"><dir name="Robbie"><dir name="Bundleoption"><dir name="Block"><dir name="Adminhtml"><file name="Jsinit.php" hash="78c93d011fc7e6a2644f7dcce4d027f4"/><dir name="System"><dir name="Config"><dir name="Form"><dir name="Field"><file name="Color.php" hash="6a46709bf0feec43f91826ebc4f7e096"/></dir></dir></dir></dir></dir><dir name="Catalog"><dir name="Product"><dir name="View"><file name="BundleAjax.php" hash="545fc0bce33739eabf0e2a7cf8b583fc"/><dir name="Type"><dir name="Bundle"><dir name="Option"><file name="Checkbox.php" hash="5d361599d3c1f2ef04cd1d2af322c194"/><file name="Radio.php" hash="be7a6902d6eca69fea692bdf319b56df"/></dir></dir></dir></dir></dir></dir><file name="Json.php" hash="cfbb08017705dac7b142bd2f09e662ae"/></dir><dir name="Helper"><file name="Data.php" hash="4444f2e004c35baac3bf045912a6f2ee"/></dir><dir name="Model"><dir name="Adminhtml"><dir name="System"><dir name="Config"><dir name="Source"><file name="Boundle.php" hash="c1c28e081e815247a3d35ec6c40f9077"/></dir></dir></dir></dir><file name="Product.php" hash="e47d4b79e696ad37c3c85455dde137b8"/></dir><dir name="controllers"><file name="ProductController.php" hash="3d9c10dab2e9037c4ffc8f82e58471b1"/></dir><dir name="etc"><file name="config.xml" hash="1991e78bf454176c2a59a688d8702b15"/><file name="system.xml" hash="41608b9f71e71e09ab6b96cee919f2ec"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Robbie_Bundleoption.xml" hash="fea61cb0a44f2b801bbdb68af72c54b3"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="robbiebundle.xml" hash="02fc7deed40535d2657ad8f68a72b7e0"/></dir><dir name="template"><dir name="bundleoption"><file name="bundleAjax.phtml" hash="90a5382e1c37a60840786376bd63b96f"/><file name="checkbox.phtml" hash="b1c8a636324f2f6da5187647830c86b7"/><file name="json.phtml" hash="b784447ce81cdde6b26a67d950e83e9f"/><file name="media.phtml" hash="a2a7b73e7c00de33879ab39269091ed4"/><file name="radio.phtml" hash="c3dea5ee894d99a83a8d8d03253f6308"/></dir></dir></dir></dir></dir></target><target name="mageweb"><dir name="js"><dir name="bundleoption"><file name="addthis_widget.js" hash="e613b1c01cc88adca8f570ec7512a342"/><file name="jquery-1.11.0.min.js" hash="8fc25e27d42774aeae6edbc0a18b72aa"/><file name="jquery-1.8.2.min.js" hash="1d14cd3798bc4d6aaf65dd625870723f"/><file name="jquery.noconflict.js" hash="3179f2255b046d5f2e9a71e365287bef"/><dir name="mColorPicker"><file name="color.png" hash="e83e9461de67b11df1c5dbafb3ce3b75"/><file name="grid.gif" hash="68cd006d56482882fc5207951fce6c65"/><file name="meta100.png" hash="8f64a39cee2667863597690e67928278"/><file name="picker.png" hash="6f7b525c44e04220893082eb072c6605"/></dir><file name="mColorPicker.min.js" hash="769da5fd4f28a2bcb4aedc752a1e1d85"/><file name="productInfo.js" hash="d7b835f8f148073215695e49cc7f7838"/></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="default"><dir name="default"><dir name="css"><file name="style-robbie-bundleoption.css" hash="66a2d241705ebcbd648319d4ebceb72f"/></dir><dir name="images"><file name="close.gif" hash="6999746d88c47e91d087014d405afe8e"/><file name="quick-view.png" hash="2f9d44698429829d1a2f5565c639021f"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

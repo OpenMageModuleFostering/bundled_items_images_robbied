@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Bundled_Items_Images_RobbieD",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "Enable Bundled items images on Product view images for Bundle Products.",
+    "authors": [
+    {
+        "name": "Robin Dhiman",
+        "email": "rkd711@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

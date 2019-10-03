@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Bundled_Items_Images_RobbieD",
+    "name": "openmage-module-fostering\/bundled_items_images_robbied",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Enable Bundled items images on Product view images for Bundle Products.",
     "authors": [
